@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 /* Nord by arcticicestudio */
 :root {
@@ -35,17 +35,18 @@ html {
     width: 100%;
     background: var(--base00);
     color: var(--base04);
-    font-family: "Noto Sans JP";
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .welcome-div {
     margin: 20px;
 }
 h1 {
     font-size: 6rem;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
 }
 p {
     font-size: 2rem;
+    font-weight: 100;
     text-align: center;
 }
