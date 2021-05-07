@@ -32,18 +32,19 @@ html {
 .section-div {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     background: var(--base00);
     color: var(--base04);
     font-family: 'Poppins', sans-serif;
 }
 #header-div {
     /* align-items: flex-start; */
+    height: 100vh;
 }
 .content-left,
 .content-right {
+    display: flex;
     margin: 100px;
     max-width: 400px;
 }
@@ -71,6 +72,38 @@ h1 {
 h2 {
     font-size: 4rem;
     font-weight: 600;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.interest-table {
+    display: flex;
+    margin: 0 100px 100px 100px;
+}
+.left-col,
+.right-col {
+    width: 400px;
+}
+.cell {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.table {
+    display: table;
+    margin: 0 100px 100px 100px;
+}
+.table-column {
+    display: table-column;
+}
+.table-row {
+    display: table-row;
+}
+.table-cell {
+    display: table-cell;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 600px;
 }
 p {
     font-size: 2rem;
