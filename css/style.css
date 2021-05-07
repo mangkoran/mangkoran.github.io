@@ -77,33 +77,20 @@ h3 {
     font-size: 2rem;
     font-weight: 600;
 }
-.interest-table {
-    display: flex;
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
     margin: 0 100px 100px 100px;
 }
 .left-col,
 .right-col {
-    width: 400px;
+    /* width: 400px; */
 }
 .cell {
     font-size: 2rem;
-    font-weight: 600;
-}
-.table {
-    display: table;
-    margin: 0 100px 100px 100px;
-}
-.table-column {
-    display: table-column;
-}
-.table-row {
-    display: table-row;
-}
-.table-cell {
-    display: table-cell;
-    font-size: 2rem;
-    font-weight: 600;
-    width: 600px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
 }
 p {
     font-size: 2rem;
