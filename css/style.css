@@ -45,7 +45,8 @@ html {
 .content-left,
 .content-right {
     display: flex;
-    margin: 100px;
+    flex-direction: column;
+    margin: 0 100px;
     max-width: 400px;
 }
 .content-left {
@@ -58,13 +59,9 @@ html {
     text-align: right;
 
 }
-#name-div {
-    /* align-items: flex-end; */
+.heading {
+    margin: 100px;
 }
-/* #name-div .content { */
-/*     max-width: 400px; */
-/*     text-align: right; */
-/* } */
 h1 {
     font-size: 8rem;
     font-weight: 600;
@@ -83,18 +80,8 @@ h3 {
     grid-row-gap: 30px;
     margin: 0 100px 100px 100px;
 }
-.left-col,
-.right-col {
-    /* width: 400px; */
-}
 .cell {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 0 10px 0;
-}
-p {
-    font-size: 2rem;
-    /* font-weight: 100; */
-    text-align: center;
-    /* margin: 20px 0 0 0; */
 }
