@@ -28,26 +28,36 @@
 }
 html {
     font-size: 10px;
+    background: var(--base00);
+    /* background: linear-gradient(#2e3440, #4C566A); */
+    color: var(--base04);
+    font-family: 'Poppins', sans-serif;
 }
 .section-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* height: 100vh; */
-    background: var(--base00);
-    color: var(--base04);
-    font-family: 'Poppins', sans-serif;
+    /* background: var(--base00); */
+    /* color: var(--base04); */
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 100px 10vw;
 }
-#header-div {
-    /* align-items: flex-start; */
-    height: 100vh;
+#contact-div {
+    position: relative;
+}
+.one-page-div {
+    height: calc(100vh - 2 * 100px);
+}
+#intro-div {
+    height: calc(100vh - 2 * 100px);
 }
 .content-left,
 .content-right {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
-    max-width: 400px;
+    /* margin: 0 100px; */
+    max-width: 600px;
 }
 .content-left {
     align-self: flex-start;
@@ -60,7 +70,7 @@ html {
 
 }
 .heading {
-    margin: 100px;
+    margin: 0 0 100px 0;
 }
 h1 {
     font-size: 8rem;
@@ -74,14 +84,32 @@ h3 {
     font-size: 2rem;
     font-weight: 600;
 }
-.interest-grid {
+.interest-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 30px;
-    margin: 0 100px 100px 100px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 3fr 1fr;
+    grid-row-gap: 40px;
+    /* margin: 0 100px 100px 100px; */
 }
 .cell {
     font-size: 2rem;
     font-weight: 400;
     margin: 0 0 10px 0;
+}
+.div-div {
+    margin: 0 0 100px 0;
+}
+.lang-list {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 0 100px 0; */
+}
+#contact-list {
+    /* align-self: flex-end; */
+    position: absolute;
+    bottom: 0px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }
