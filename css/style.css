@@ -3,7 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* global */
+
 /* Nord by arcticicestudio */
+
 :root {
   --base00: #2e3440;
   --base01: #3b4252;
@@ -57,6 +60,7 @@ a:hover {
 }
 
 /* class */
+
 .section-div {
   display: flex;
   flex-direction: column;
@@ -89,14 +93,8 @@ a:hover {
   margin: 0 0 100px 0;
 }
 
-.div-div {
+.margin-div {
   margin: 0 0 100px 0;
-}
-
-.interest-list {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-row-gap: 40px;
 }
 
 .cell {
@@ -106,19 +104,57 @@ a:hover {
 }
 
 /* id */
+
+/* welcome div */
+
+/* intro div */
+
+#intro-div {
+  height: calc(100vh - 2 * 100px);
+}
+
+/* interest div */
+
+#interest-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-row-gap: 40px;
+}
+
+/* lang div */
+
 #lang-list {
   display: flex;
   flex-direction: column;
 }
 
-#intro-div {
-  height: calc(100vh - 2 * 100px);
-}
+/* contact div */
+
 #contact-div {
   position: relative;
 }
 
-#contact-list {
+#contact-link {
   position: absolute;
   bottom: 0px;
+}
+
+#guestbook {
+  position: absolute;
+  bottom: 0px;
+}
+
+.input-text {
+  background: var(--base01);
+  color: var(--base04);
+  border: hidden;
+  border-radius: 4px;
+  font: inherit;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+.input-text:focus {
+  outline: none;
 }
